@@ -89,16 +89,10 @@ class _AppState extends State<App> {
                   shape: BoxShape.circle,
                   color: Colors.white,
                 ),
-                child: const Center(
+                child:  Center(
                   child: Text(
                     "1",
-                    style: TextStyle(
-                      decoration: TextDecoration.none,
-                      color: Colors.black,
-                      fontFamily: 'Outfit',
-                      fontSize: 18,
-                      height: 24 / 18,
-                    ),
+                    style: circleStyle,
                   ),
                 ),
               ),
@@ -142,16 +136,10 @@ class _AppState extends State<App> {
                   shape: BoxShape.circle,
                   color: Colors.white,
                 ),
-                child: const Center(
+                child: Center(
                   child: Text(
                     "2",
-                    style: TextStyle(
-                      decoration: TextDecoration.none,
-                      color: Colors.black,
-                      fontFamily: 'Outfit',
-                      fontSize: 18,
-                      height: 24 / 18,
-                    ),
+                    style: circleStyle,
                   ),
                 ),
               ),
