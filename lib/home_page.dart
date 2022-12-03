@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:tech_arena/const_styles.dart';
 import 'package:url_launcher/link.dart';
 
 class HomePage extends StatelessWidget {
@@ -52,15 +53,7 @@ class _AppState extends State<App> {
               SizedBox(height: 16,),
               const Text(
                 "Full Stack Developer",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 8,
@@ -109,15 +102,7 @@ class _AppState extends State<App> {
               ),
               const Text(
                 "Flutter Mobile App + Node.js Backend",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 4,
@@ -127,15 +112,7 @@ class _AppState extends State<App> {
                     "Iako ćemo na tromjesečnoj praksi koristiti drugačiji način spajanja te ćemo koristiti AWS cloud, "
                     "ovo može biti super korisno. "
                     "Obavezno je da se ovaj kurs prođe čitav te da se ista aplikacija razvije.",
-                style: TextStyle(
-                  height: 16 / 12,
-                  decoration: TextDecoration.none,
-                  fontStyle: FontStyle.normal,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  fontSize: 12,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: textStyle_text,
               ),
               SizedBox(
                 height: 16,
@@ -196,15 +173,7 @@ class _AppState extends State<App> {
               ),
               const Text(
                 "How to speak the language of Application Architecture",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 4,
@@ -215,15 +184,7 @@ class _AppState extends State<App> {
                     "Kako bi bio/bila u stanju da razumiješ koncepte kako se ovo radi, "
                     "potrebno je da barem pogledaš ovaj video. Ovdje možeš pronaći veoma dobar sadržaj. "
                     "Ako budeš imao/la vremena, toplo preporučujemo da pogledaš još sličnih videa na ovu temu!",
-                style: TextStyle(
-                  height: 16 / 12,
-                  decoration: TextDecoration.none,
-                  fontStyle: FontStyle.normal,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  fontSize: 12,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: textStyle_text,
               ),
               SizedBox(
                 height: 16,
@@ -284,15 +245,7 @@ class _AppState extends State<App> {
               ),
               const Text(
                 "APIs for Beginners",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 4,
@@ -301,15 +254,7 @@ class _AppState extends State<App> {
                 "Kao i u govoru, možemo imati najbolju ideju, "
                     "ali ako tu ideju ne možemo iskomunicirati onda sve pada u vodu. "
                     "Tako je i sa softwerom, potrebno je da razumiješ na koji način frontend komunicira sa backend-om.",
-                style: TextStyle(
-                  height: 16 / 12,
-                  decoration: TextDecoration.none,
-                  fontStyle: FontStyle.normal,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  fontSize: 12,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: textStyle_text,
               ),
               SizedBox(
                 height: 16,
@@ -370,15 +315,7 @@ class _AppState extends State<App> {
               ),
               const Text(
                 "Git and GitHub for Beginners",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 4,
@@ -386,15 +323,7 @@ class _AppState extends State<App> {
               const Text(
                 "GitHub je jedna od najpopularnijih platformi za čuvanje koda i za kolaboraciju za programere"
                     " te je potrebno da razumiješ barem njene osnove.",
-                style: TextStyle(
-                  height: 16 / 12,
-                  decoration: TextDecoration.none,
-                  fontStyle: FontStyle.normal,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  fontSize: 12,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: textStyle_text,
               ),
               SizedBox(
                 height: 16,
@@ -455,15 +384,7 @@ class _AppState extends State<App> {
               ),
               const Text(
                 "SOLID Principles (Uncle Bob)",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 4,
@@ -472,15 +393,7 @@ class _AppState extends State<App> {
                 "Predavanje na temu SOLID principa od strane Rober C. Martina, poznatijeg kao Uncle Bob. "
                     "Robert je u svijetu softwera ekvivalentan Ronaldu u fudbalu. Ako budeš imao/la vremena, "
                     "preporučujemo da pogledaš još predavanja na temu SOLID principa i predavanja Uncle Bob-a.",
-                style: TextStyle(
-                  height: 16 / 12,
-                  decoration: TextDecoration.none,
-                  fontStyle: FontStyle.normal,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  fontSize: 12,
-                  fontWeight: FontWeight.w500,
-                ),
+                style: textStyle_text,
               ),
               SizedBox(
                 height: 16,
@@ -541,15 +454,7 @@ class _AppState extends State<App> {
               ),
               const Text(
                 "Uncle Bobs solid Principles made easy",
-                style: TextStyle(
-                  height: 36 / 28,
-                  fontStyle: FontStyle.normal,
-                  fontSize: 28,
-                  fontWeight: FontWeight.w500,
-                  fontFamily: 'Outfit',
-                  color: Color(0xFFFFFFFF),
-                  decoration: TextDecoration.none,
-                ),
+                style: textStyle,
               ),
               SizedBox(
                 height: 4,
