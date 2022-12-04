@@ -14,9 +14,6 @@ class LoginPage extends StatefulWidget {
 
 class _LoginDemoState extends State<LoginPage> {
 
-  String? email;
-  String? password;
-
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
@@ -71,8 +68,8 @@ class _LoginDemoState extends State<LoginPage> {
                     ),
                   ),
                   onPressed: () {
-                      Navigator.push(
-                          context, MaterialPageRoute(builder: (_) => const HomePage()));
+                    Navigator.push(
+                        context, MaterialPageRoute(builder: (_) => const HomePage()));
                   },
                   child: const Text(
                     'Log in',

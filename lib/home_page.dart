@@ -1,10 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:tech_arena/circles.dart';
 import 'package:tech_arena/const_styles.dart';
 import 'package:tech_arena/login_page.dart';
-import 'package:tech_arena/lookButton.dart';
 import 'package:tech_arena/look_button.dart';
 import 'package:tech_arena/texts.dart';
 import 'package:url_launcher/link.dart';

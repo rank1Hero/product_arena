@@ -12,3 +12,10 @@ const look_button = Text(
     letterSpacing: 0.1,
   ),
 );
+
+ButtonStyle lookButtonStyle = TextButton.styleFrom(
+  backgroundColor: Color(0xFF04E762),
+  shape: const RoundedRectangleBorder(
+    borderRadius: BorderRadius.all(Radius.zero),
+  ),
+);

@@ -21,3 +21,20 @@ const textStyle_text = TextStyle(
   fontSize: 12,
   fontWeight: FontWeight.w500
 );
+
+Container circleContainer = Container(
+  height: 40,
+  width: 40,
+  decoration: const BoxDecoration(
+    shape: BoxShape.circle,
+    color: Colors.white,
+  ),
+);
+
+TextStyle circleStyle= const TextStyle(
+    decoration: TextDecoration.none,
+    color: Colors.black,
+    fontFamily: 'Outfit',
+    fontSize: 18,
+    height: 24 / 18
+);
